@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    color:#212226
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:25px;
+}
+section{
+    background:white;
+    overflow: hidden;
+}
+#home{
+    background:none;
+    height: 100%;
+}
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    background:url("/VIDEO/video.jpg") no-repeat;
+    background-size: cover;
+    
+}
+#home-overlay{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height:100%; 
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+#home-content{
+    width:100%;
+    height:100%;
+    display: table;
+}
+#home-content-inner{
+    display: table-cell;
+    vertical-align:middle;
+}
+#home-heading1{
+    color: white;
+    font-size: 100px;
+    font-weight:100;
+    display: inline-block;
+}
+#home-heading2{
+    color:#c37ae2;
+    font-size: 50px;
+    font-weight:100;
+    display: inline-block;
+}
+#home-heading h1 span{
+    color:#f8c60f;
+    font-weight:500;
+}
+#home-text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin:8px 0 30px 0;
+}
+.btn-general{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 28px;
+    font-size:13px;
+    text-transform: uppercase;
+    margin:0 6px;
+    padding:12px 46px 12px 46px;
+    transition:all 0.5s;
+     
+}
+.btn-home{
+    color:white;
+    border:1px solid white;
+}
+.btn-home:hover ,.btn-home:focus{
+    color:white;
+    background-color:#f8c60f;
+    border:1px solid #f8c60f;
+
+
+}
+#arrow-down{
+    position:absolute;
+    bottom:20px;
+    left:730px;
+    font-size:32px;
+    width:32px;
+    height:32px;
+    text-align:center;
+    margin-left:-16px;
+    z-index:1;
+    
+}
+#arrow-down:hover,#arrow-down:focus{
+    color:#f8c60f
+}
