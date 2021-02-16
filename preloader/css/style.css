@@ -1,0 +1,32 @@
+/*=============
+Colors: 
+light yellow: #f8c60f
+purple: #733d8b
+dark blue: #2b2563
+
+===============*/
+
+/* Preloader */
+
+#preloader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+#status{
+    background-image: url("../images/preload_small.gif");
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -85px;
+    margin-left: -85px;   
+}
