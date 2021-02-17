@@ -1,0 +1,241 @@
+/*=============
+Colors: 
+light yellow: #f8c60f
+purple: #733d8b
+dark blue: #2b2563
+===============*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    color:#212226
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:25px;
+}
+section{
+    background:white;
+    overflow: hidden;
+}
+
+
+/* Preloader */
+#preloader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+
+}
+
+#status{
+    background-image: url("../img/preload_small.gif");
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -85px;
+    margin-left: -85px;   
+}
+
+#home{
+    background:none;
+    height: 100%;
+}
+#home-bg-video{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    background-size: cover;
+    
+}
+#home-overlay{
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+    height:100%; 
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+#home-content{
+    width:100%;
+    height:100%;
+    display: table;
+}
+#home-content-inner{
+    display: table-cell;
+    vertical-align:middle;
+}
+#home-heading1{
+    color: white;
+    font-size: 100px;
+    font-weight:100;
+    display: inline-block;
+}
+#home-heading2{
+    color:#c37ae2;
+    font-size: 50px;
+    font-weight:100;
+    display: inline-block;
+}
+#home-heading h1 span{
+    color:#f8c60f;
+    font-weight:500;
+}
+
+#home-text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin:8px 0 30px 0;
+}
+.btn-general{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 28px;
+    font-size:13px;
+    text-transform: uppercase;
+    margin:0 6px;
+    padding:12px 46px 12px 46px;
+    transition:all 0.5s;
+     
+}
+.btn-home{
+    color:white;
+    border:1px solid white;
+}
+.btn-home:hover ,.btn-home:focus{
+    color:white;
+    background-color:#f8c60f;
+    border:1px solid #f8c60f;
+
+
+}
+#arrow-down{
+    position:absolute;
+    bottom:20px;
+    left:730px;
+    font-size:32px;
+    width:32px;
+    height:32px;
+    text-align:center;
+    margin-left:-16px;
+    z-index:1;
+    
+}
+#arrow-down:hover,#arrow-down:focus{
+    color:#f8c60f
+}
+
+/* ABOUT SECTION TOP */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.content-box-lg{
+    padding:120px 0;
+}
+.vertical-heading h5{
+    color:#f8c60f;
+    font-size:22px;
+    font-weight:700;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    position:relative;
+    top:80px;
+    left:-73px;
+}
+.vertical-heading h2{
+    margin-left: 35px;
+    font-size:60px;
+    font-weight:60;
+    line-height:70px;
+    
+}
+.vertical-heading h2 span{
+    color:#f8c60f
+}
+#about-right p{
+    margin-bottom: 50px;
+    color:#733d8b;
+    font-size:19px;
+}
+/* ABOUT SECTION BOTTOM */
+#about-02{
+    background-color:#f4f4f4;
+}
+.content-box-md{
+    padding:100px 0;
+}
+.about-item{
+    background-color:white;
+    padding:80px 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+}
+.about-item i{
+    font-size: 60px;
+    margin: 0;
+}
+.about-item h3{
+    font-size:32px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width:65px;
+    height: 3px;
+    background-color:#f8c60f;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top:25px;
+    color:#733d8b;
+    font-size:17px;
+}
+.about-item:hover{
+    background-color:#f8c60f;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p
+{
+    color:white;
+}
+.about-item:hover hr{
+    background-color:white;
+}
+.about-item,
+.about-item i,
+.about-item hr{
+    transition:all 500ms ease-in-out;
+}
+.about-item:hover i{
+    transform:translateY(-40px);
+}

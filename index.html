@@ -4,18 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
     <title>WebDomus</title>
 </head>
 
 <body>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--Adding Preloader-->
+         <div id = "preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+    <!-- HOME -->
     <section id="home">
         <video id="home-bg-video" poster="VIDEO/video.jpg" autoplay loop muted>
             <source src="VIDEO/video copy.mp4" type="video/mp4">
@@ -43,14 +61,124 @@
             </div>
 
         </div>
+
         <a href="#about" id="arrow-down">
-            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <i class="fa fa-angle-down" area-hidden="true"></i>
         </a>
 
 
+
+    </section>
+    <!-- ABOUT -->
+    <section id="about">
+
+        <div id="about-01">
+            <div class="content-box-lg">
+                <!--  BOOTSTRAP CLASS -->
+                <div class="container">
+
+                    <div class="row">
+                        <!-- BOOTSTRAP COLUMN CLASS -->
+                        <div class="col-md-6">
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h5>Who We Are</h5>
+                                    <h2>A <span>Story</span><br>About Us</h2>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div id="about-right">
+                                <p>We are WebDomus, we estabilished as a startup with an aim to provide software
+                                    service(s) such as Website Development, UI/UX Designing,Android Development,Digital
+                                    Marketing and
+                                    various other services for our clients on a contractual basis. We understand that
+                                    not everyone will come to us as a client and some people may need to
+                                    learn these skills as well. So, we also provide courses at a very affordable rate so
+                                    that if anyone who wants to learn these skills can also learn from us. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ABOUT BOTTOM -->
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div id="about-bottom">
+                                <img src="img/webdomus.jpg" alt="About Us" class="center" class="img-responsive">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- BOOTSTRAP TEXT-CENTER -->
+                            <div class="about-item text-center">
+
+                                <i class="fas fa-rocket"></i>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>Our mission is to assist our clients in presenting a professional front to the
+                                    marketplace. Presentation is everything and we believe this at WebDomus.Our clients need to showcase themselves
+                                    in a professional manner - and this is why we offer Website Development, UI/UX
+                                    Designing,etc.Our mission is to help with your
+                                    professionalism through the services that we offer.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- BOOTSTRAP TEXT-CENTER -->
+                            <div class="about-item text-center">
+
+                                <i class="fas fa-eye"></i>
+                                <h3>Vision</h3>
+                                <hr>
+                                <p>The Vision of our company is to become the most trusted name in the realm of IT by
+                                    offering unmatched services, solutions and support for the growth of our precious
+                                    clients. Our imagination is to set into actions through unique programs with a focus
+                                    on successful accomplishment of all the projects in stipulated timeframe while
+                                    building a long-term relationship with our clients.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- BOOTSTRAP TEXT-CENTER -->
+                            <div class="about-item text-center">
+
+                                <i class="fas fa-handshake"></i>
+                                <h3>Values</h3>
+                                <hr>
+                                <p>What brings together in building an organization that has a unique culture is our
+                                    value system. Every Mind is driven by class, the acronym for our core values of
+                                    Caring, Learning, Achieving, Sharing, and Social Responsibility. Everything we are,
+                                    everything we do, and everything we believe in revolves around our class values and
+                                    the distinct culture that we have built.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-
+    <section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+       <!--linking jquery-->
+       <script src="js/jquery.js"></script>
+       <!--linking js-->
+       <script src="js/script.js"></script>
 </body>
 
 </html>
