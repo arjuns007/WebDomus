@@ -130,8 +130,6 @@ section{
     color:white;
     background-color:#f8c60f;
     border:1px solid #f8c60f;
-
-
 }
 #arrow-down{
     position:absolute;
@@ -238,4 +236,143 @@ section{
 }
 .about-item:hover i{
     transform:translateY(-40px);
+}
+
+/*Team */
+
+#team-left .vertical-heading{
+    min-height: 160px;
+}
+
+#team-left p{
+    color: #733d8b;
+}
+
+.team-member{
+    margin: 8px;
+    position:relative
+}
+
+.team-member-overlay{
+    background-color: rgba(33, 34, 38, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.team-member-info{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px;
+}
+
+.team-member-info h6{
+    color :#f8c60f;
+    font-size: 18px;
+    margin: 0;
+}
+
+.team-member-info p{
+    color: white;
+}
+
+.team-member:hover .team-member-overlay{
+    opacity: 1;
+}
+
+/*social icons team*/
+
+ul.social-list {
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul.social-list li{
+    padding: 0;
+    display: inline-block;
+}
+
+ul.social-list li a{
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ul.social-list li:nth-child(1) a:hover{
+    background-color: #3b5998;
+    border-color: transparent;
+}
+ul.social-list li:nth-child(2) a:hover{
+    background-color: #0A66C2;
+    border-color: transparent;
+}
+ul.social-list li:nth-child(3) a:hover{
+    background-color: black;
+    border-color: transparent;
+}
+
+.fa-angle-left:before{
+    color: #212226;
+    background: none;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.fa-angle-right:before{
+    color: #212226;
+    background: none;
+    font-size: 40px;
+    margin: 0;
+}
+
+/*progress bar*/
+
+.skill{
+    margin-bottom: 20px;
+}
+.skill h4{
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.progress{
+    height: 25px;
+    border-radius: 0;
+    background-color: #efefef;
+    overflow: visible;
+}
+
+.progress-bar{
+    background-color: #f8c60f;
+    position: relative;
+}
+
+.progress-bar span{
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    background: #212226;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -45px;
+}
+
+.progress-bar span::before{
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 25%;
 }
