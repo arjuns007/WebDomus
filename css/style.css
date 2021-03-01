@@ -376,3 +376,12 @@ ul.social-list li:nth-child(3) a:hover{
     bottom: -8px;
     left: 25%;
 }
+
+/* STATEMENT */
+#statement{
+    background:url("../img/tech-quote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
