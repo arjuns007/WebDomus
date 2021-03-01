@@ -383,5 +383,21 @@ ul.social-list li:nth-child(3) a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    background-attachment: fixed;
+
+
+}
+#statement .content-box-lg{
+    background: rgba(0,0,0, 0.4)
+}
+
+#tech-statement h3{
+    color:#fff;
+    font-size:28px;
+    line-height:45px;
+}
+#tech-statement p{
+    font-size: 28px;
+    color: #f8c60f;
+    margin-top: 11px;
 }
