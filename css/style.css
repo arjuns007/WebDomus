@@ -483,3 +483,42 @@ SERVICES 02 (RESPONSIVE TABS) */
      padding-bottom: 5px;
      transition: border-color 300ms linear;
 }
+.service-tab img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.service-tab .tab-bg{
+    background: #fff;
+    padding: 59px 30px;
+    min-height: 481px;
+}
+.service-tab .col-md-6{
+    padding: 0;
+
+}
+.service-tab h2{
+    font-size: 48px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.service-tab h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.service-tab p{
+    line-height: 24px;
+    margin-bottom: 30px;
+
+}
+.btn-yellow{
+    color:#fff;
+    border: 1px solid #f8c60f;
+    background-color: #f8c60f;
+}
+.btn-yellow:hover,.btn-yellow:focus{
+    color:#fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
