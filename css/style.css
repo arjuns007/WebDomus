@@ -454,3 +454,32 @@ ul.social-list li:nth-child(3) a:hover{
     line-height: normal;
      
 }
+/* 
+SERVICES 02 (RESPONSIVE TABS) */
+
+#services-02{
+    background: #f4f4f4;
+
+}
+#services-tabs ul{
+    margin-bottom: 40px;
+}
+#services-tabs ul li{
+    padding: 5px 30px;
+}
+#services-tabs ul li a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+#services-tabs ul li.r-tabs-state-active a{
+     color: #f8c60f;
+     font-weight: 700;
+     border-bottom: 3px solid #f8c60f;
+     padding-bottom: 5px;
+     transition: border-color 300ms linear;
+}
