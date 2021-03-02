@@ -401,3 +401,56 @@ ul.social-list li:nth-child(3) a:hover{
     color: #f8c60f;
     margin-top: 11px;
 }
+
+/* SERVICES */
+.horizontal-heading{
+    margin-bottom: 80px;
+    
+}
+.horizontal-heading h5{
+    font-size: 36px;
+    color: #f8c60f;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.horizontal-heading h2{
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+    margin: 0;
+}
+#services-01 img{
+    margin: 60px 0;
+}
+.service{
+    margin: 35px 0;
+
+}
+.service .icon{
+    font-size: 42px;
+    margin: 0;
+    transition: all 400ms linear;
+}
+.service:hover .icon{
+     color: #f8c60f;
+     transform: translateX(-20px);
+
+}
+.service h5{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #f8c60f;
+    margin: 0 0 6px 0;
+}
+.service:hover h5{
+    color: #212226;
+}
+.service h4{
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+.service p{
+    line-height: normal;
+     
+}
