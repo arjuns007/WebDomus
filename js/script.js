@@ -1,35 +1,44 @@
 /* preloader*/
-$(window).on('load', function(){
+$(window).on('load', function () {
     $('#status').delay(2000).fadeOut();
     $('#preloader').delay(2000).fadeOut();
 });
 
 /*team*/
-$(document).ready(function(){
+$(document).ready(function () {
     $(".owl-carousel").owlCarousel({
-        items : 2,
-        autoplay : true,
-        smartSpeed : 400,
+        items: 2,
+        autoplay: true,
+        smartSpeed: 400,
         loop: true,
-        autoplayHoverPause : true,
-        nav : true,
-        dots : false, 
-        navText : ['<i class="fas fa-angle-left"></i>' , '<i class="fas fa-angle-right"></i>']
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
     });
-  });
+});
 
-  /*progress bars*/
+/*progress bars*/
 
-$(function(){
+$(function () {
 
-    $("#progress-elements").waypoint(function() {
-        $(".progress-bar").each(function(){
+    $("#progress-elements").waypoint(function () {
+        $(".progress-bar").each(function () {
             $(this).animate({
-                width: $(this).attr("aria-valuenow") +"%"
+                width: $(this).attr("aria-valuenow") + "%"
             }, 1000);
         })
         this.destroy();
     }, {
-        offset:'bottom-in-view' 
+        offset: 'bottom-in-view'
     });
+});
+
+// RESPONSIVE TABS
+
+$(function () {
+    $("#services-tabs").responsiveTabs({
+        animation: 'slide'
+    });
+
 });
