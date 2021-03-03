@@ -452,6 +452,8 @@ ul.social-list li:nth-child(3) a:hover{
 }
 .service p{
     line-height: normal;
+    font-size: medium;
+    color: #733d8b;
      
 }
 /* 
@@ -510,6 +512,8 @@ SERVICES 02 (RESPONSIVE TABS) */
 .service-tab p{
     line-height: 24px;
     margin-bottom: 30px;
+    font-size: medium;
+    color: #733d8b;
 
 }
 .btn-yellow{
