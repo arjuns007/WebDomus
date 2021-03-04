@@ -629,7 +629,7 @@ SERVICES 02 (RESPONSIVE TABS) */
 
 .pricing-table .price h2 span.rupee{
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 400;
     position: absolute;
     left: -10px;
     top: 5px;
@@ -670,7 +670,7 @@ SERVICES 02 (RESPONSIVE TABS) */
     width: 24px;
 }
 
-.pricing-table .btn-yellow{
+.pricing-table .btn-yellow,.pricing-table.black .btn-white{
     width: 96%;
 }
 
@@ -687,8 +687,36 @@ SERVICES 02 (RESPONSIVE TABS) */
     border: 1px solid #fff;
 }
 
-.pricing-table .btn-yellow:hover{
+.pricing-table .btn-yellow:hover, .pricing-table .btn-yellow:focus{
     background: #212226;
     color: #fff;
+    border: 1px solid #212226;
+}
+
+/*Center Pricing Table*/
+
+.pricing-table.black{
+    background: #212226;
+    color: #fff;
+}
+
+.pricing-table .type h4{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.pricing-table.black:hover{
+    background: #f8c60f;
+}
+
+.btn-white{
+    color:#212226;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.btn-white:hover,.btn-white:focus{
+    color:#fff;
+    background-color: #212226;
     border: 1px solid #212226;
 }
