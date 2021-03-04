@@ -6,7 +6,7 @@ $(window).on('load', function () {
 
 /*team*/
 $(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
+    $("#team-members").owlCarousel({
         items: 2,
         autoplay: true,
         smartSpeed: 400,
