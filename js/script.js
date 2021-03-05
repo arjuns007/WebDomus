@@ -56,3 +56,53 @@ $(document).ready(function () {
         navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
     });
 });
+
+/*Counter*/
+
+/*
+$(function(){
+
+    var countOptions = {
+        useEasing: true,
+        separator: ''
+      }
+      
+      var count = new CountUp('MyNumber', 0, $('.counter'), 0, 5, countOptions)
+      
+      // start the counting and give it a callback when done
+      count.start(function() {
+      });{
+        offset: 'bottom-in-view'
+    }
+    
+})  
+*/
+
+
+$('.counter').scroll(function () {
+    if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
+        const counters = document.querySelectorAll('.counter');
+        const speed = 100;
+        
+        counters.forEach(counter =>{
+            const updateCount = () => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+        
+                const inc = target / speed;
+        
+                if(count<target) {
+                    counter.innerText = Math.ceil(count + inc);
+                    setTimeout(updateCount, 1);
+                }
+                else {
+                    count.innerText = target;
+                }
+            }
+        
+            updateCount();
+        });
+    }
+ });
+
+
