@@ -720,3 +720,61 @@ SERVICES 02 (RESPONSIVE TABS) */
     background-color: #212226;
     border: 1px solid #212226;
 }
+
+/*Stats Section*/
+
+#stats{
+    background:url("../img/stats-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+#stats .content-box-md{
+    background: rgba(0,0,0, 0.8)
+}
+
+#stats .vertical-heading h2{
+    color: #fff;
+}
+
+#stats .vertical-heading {
+    margin-bottom: 50px;
+}
+
+.Stats-item{
+    background: rgba(61, 68, 68);
+    border-radius: 4px;
+    min-height: 170px;
+    padding: 25px 50px;
+    transition: all 400ms linear;
+}
+
+.Stats-item i{
+    font-size: 42px;
+    color: #f8c60f;
+    margin: 0 0 6px 0;
+    transition: all 400ms linear;
+}
+
+.Stats-item h3{
+    font-size: 32px;
+    color: #fff;
+    margin: 5px 0 5px 0;
+}
+
+.Stats-item p{
+    color: #fff;
+    margin: 0;
+}
+
+.Stats-item:hover{
+    background: #f8c60f;
+}
+
+.Stats-item:hover i{
+    color: #212226;
+    transform: translateY(-20px);
+}
