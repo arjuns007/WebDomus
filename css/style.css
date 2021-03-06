@@ -778,3 +778,29 @@ SERVICES 02 (RESPONSIVE TABS) */
     color: #212226;
     transform: translateY(-20px);
 }
+/* CONTACT SECTION */
+#contact-left p{
+    margin: 25px 0 20px 0;
+}
+ul.office-details{
+    list-style: none;
+    padding: 0;
+}
+ul.office-details li{
+    font-family: "Ubuntu";
+    margin-top: 14px;
+    display: flex;
+}
+ul.office-details li i{
+    font-size: 20px;
+    width: 45px;
+}
+.office ul.social-list li a {
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+}
+.office ul.social-list li a:hover{
+    color:#fff;
+    border-color: transparent;
+}
