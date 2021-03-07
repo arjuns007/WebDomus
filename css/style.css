@@ -700,7 +700,7 @@ SERVICES 02 (RESPONSIVE TABS) */
     color: #fff;
 }
 
-.pricing-table .type h4{
+.pricing-table.black .type h4{
     color: #fff;
     font-size: 24px;
     margin-bottom: 25px;
@@ -827,4 +827,16 @@ ul.office-details li i{
 }
 #contact-right form textarea.form-control{
     min-height: 164px;
+}
+footer{
+    background: #212226;
+    padding: 30px;
+}
+footer p{
+    color: #fff;
+    line-height: 20px;
+}
+
+footer p span{
+    color: #f4c613;
 }
