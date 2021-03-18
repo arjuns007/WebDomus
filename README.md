@@ -1,6 +1,8 @@
 # WebDomus
 We are WebDomus, a small startup in which we provide software  service(s) such as Website Development, UI/UX Designing etc. for our clients on a contractual basis.
 
+TECHNOLOGIES USED WHILE DESIGNING THIS FRONT-END WEBSITE: HTML5,CSS3,BOOTSTRAP4 and jQuery.
+
 ![Screenshot 2021-03-18 at 1 55 43 PM](https://user-images.githubusercontent.com/44583018/111595609-4be3fc80-87f2-11eb-987c-4902c459cc31.png)
 ![Screenshot 2021-03-18 at 1 55 51 PM](https://user-images.githubusercontent.com/44583018/111596000-b6953800-87f2-11eb-80b3-b326a14913a2.png)
 ![Screenshot 2021-03-18 at 1 56 01 PM](https://user-images.githubusercontent.com/44583018/111596026-bac15580-87f2-11eb-93c4-cbd3be371762.png)
