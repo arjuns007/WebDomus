@@ -1,5 +1,5 @@
 # WebDomus
-We are WebDomus, a small startup in which we provide software  service(s) such as Website Development, UI/UX Designing etc. for our clients on a contractual basis.
+We are WebDomus, a small startup in which we provide software  service(s) such as Website Development, UI/UX Designing,Mobile Application Development etc. for our clients on a contractual basis.
 
 TECHNOLOGIES USED WHILE DESIGNING THIS FRONT-END WEBSITE: HTML5,CSS3,BOOTSTRAP4 and jQuery.
 
